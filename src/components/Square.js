@@ -10,7 +10,7 @@ const Button = styled.button`
 `;
 
 const Square = ({onClick, value}) => (
-	<Button onClick={onClick}>{value}</Button>
+  <Button onClick={onClick}>{value}</Button>
 );
 
 
